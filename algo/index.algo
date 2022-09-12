@@ -1,0 +1,26 @@
+ALGORITHM algorithm_name
+VAR n = INTEGER
+    
+BEGIN
+    write "donner moi un chiffre"
+    read n
+    if(n>1 and n<3) then 
+    write "trés bien"
+ else write "nombre erroné"
+ END if ;
+
+END.
+
+
+
+ALGORITHM algorithm_name
+VAR i ,n , s : number;
+    
+BEGIN
+write "donner moi un chiffre";
+    read n ;
+    FOR i FROM 1 TO n STEP 1  DO
+        s=s*i 
+    END_FOR;
+    read s;
+END

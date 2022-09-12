@@ -1,0 +1,24 @@
+ALGORITHM algorithm_name
+VAR str=STRING;
+VAR somme=1 :number;
+VAR x=number;  
+VAR y=number;
+BEGIN
+   WHILe( str <> ".") DO
+read str
+IF (str = " ") THEN
+    somme = somme+1
+END_IF
+   END_WHILE
+
+   x= str.length()
+   WHILE (str <> ".") DO
+   if (str="a" or str="o" or str="i" or str="e" or str="u" or str="y") then
+   y=y+1
+   END_IF;
+   END_WHILE;
+   write ("voici le nombre de mots",somme);
+   write ("voici le nombre de voyelle",y); 
+   write ("voici la longueur de la chaîne",x);
+
+END
